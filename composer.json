@@ -1,0 +1,25 @@
+{
+    "name": "josrom/laravel-build-emails",
+    "description": "Convert Mail views into views with inline style",
+    "keywords": ["laravel", "mails", "css"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jose Vicente Orts Romero",
+            "email": "jvortsromero@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7",
+        "symfony/css-selector": "^2.7|~3.0",
+        "tijsverkoyen/css-to-inline-styles": "2.2.*",
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\MailBuilder\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
